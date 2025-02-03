@@ -1,0 +1,623 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('home\ img.jpg');  /* Add the URL to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 0 10px;
+    color: #b59191; /* Text color for contrast */
+}
+
+/* Header styling */
+header {
+    background-color: rgba(153, 202, 227, 0.7); /* Semi-transparent background for header */
+    color: #738668;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #cb81c6;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Hero section styling with a different background image */
+.hero {
+    background-image: url('hero\ img.jpg'); /* Different image for the hero section */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #101011;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #101011;
+}
+
+/* Main content styling */
+.content {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(120, 71, 92, 0.8); /* Semi-transparent background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(235, 165, 165, 0.1);
+}
+
+.content h3 {
+    font-size: 1.5em;
+    color: #72a492;
+}
+
+/* Footer */
+footer {
+    background-color: #3f5e6a;
+    color: #785396;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+
+    .content h3 {
+        font-size: 1.3em;
+    }
+}
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('home\ img.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 0 10px;
+    color: #66ac94;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(129, 141, 167, 0.7); /* Semi-transparent background */
+    color: #0f0f11;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #789982;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* About section styling */
+.about {
+    background-image: url('about\ img.jpg'); /* Replace with your about section image */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 10px;
+    text-align: center;
+    color: #4f4335;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(125, 89, 89, 0.5);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #495a84;
+    color: #769a7c;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .about h2 {
+        font-size: 1.5em;
+    }
+
+    .about p {
+        font-size: 1.1em;
+    }
+}
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('home\ img.jpg');  /* Background image for the body */
+    background-size: cover;
+    background-position: center;
+    padding: 0 10px;
+    color: #4d715d;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(82, 100, 134, 0.7); /* Semi-transparent background for header */
+    color: #795f8d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #c99d9d;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Product section styling */
+.product-section {
+    background-image: url('product\ img.jpg'); /* Background image for the product section */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10px;
+    text-align: center;
+    color: #101011;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(160, 129, 129, 0.5);
+}
+
+.product-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.product-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Product grid styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color: rgba(158, 143, 182, 0.8); /* Semi-transparent background for each product item */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(189, 123, 123, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.product-item p {
+    font-size: 1.1em;
+    margin-top: 5px;
+    color: #768293;
+}
+
+/* Footer */
+footer {
+    background-color: #65919a;
+    color: #9bb0a7;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .product-section h2 {
+        font-size: 1.5em;
+    }
+
+    .product-section p {
+        font-size: 1.1em;
+    }
+
+    .product-item h3 {
+        font-size: 1.3em;
+    }
+
+    .product-item p {
+        font-size: 1em;
+    }
+}
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('home\ img.jpg'); /* Background image for the body */
+    background-size: cover;
+    background-position: center;
+    padding: 0 10px;
+    color: #ad9ab9;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(114, 135, 130, 0.7); /* Semi-transparent background for header */
+    color: #a99dc3;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #a5c4ba;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Contact section styling */
+.contact-section {
+    background-image: url('contact\ img.jpg'); /* Background image for the contact section */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10px;
+    text-align: center;
+    color: #cfcfe6;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(133, 184, 172, 0.5);
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Contact form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(136, 162, 142, 0.8); /* Semi-transparent background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(170, 164, 220, 0.1);
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #425d75;
+    font-size: 1em;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .contact-section h2 {
+        font-size: 1.5em;
+    }
+
+    .contact-section p {
+        font-size: 1.1em;
+    }
+
+    .contact-form button {
+        font-size: 1em;
+    }
+}
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('home\ img.jpg'); /* Background image for the body */
+    background-size: cover;
+    background-position: center;
+    padding: 0 10px;
+    color: #fff;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+}
+
+/* Login Section styling */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('login\ img.jpg'); /* Background image for the login section */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.login-form-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-form-container h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+}
+
+.login-form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    width: 100%;
+}
+
+.login-form button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form p {
+    color: #fff;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.login-form a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 600px) {
+    .login-form-container h2 {
+        font-size: 1.5em;
+    }
+
+    .login-form input,
+    .login-form button {
+        font-size: 1em;
+    }
+}
